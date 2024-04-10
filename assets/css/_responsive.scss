@@ -1,0 +1,586 @@
+// =========================================================================================
+@media only screen and (max-width: 576px) {
+  .header-one {
+    & > .container {
+      display: none;
+    }
+    marquee {
+      &.blue-bg {
+        font-size: 12px;
+        padding: 2px 0 !important;
+      }
+      .multi-logos {
+        display: flex;
+        img {
+          height: 55px;
+        }
+      }
+    }
+  }
+  .header-2 {
+    background: transparent !important;
+    padding-bottom: 0 !important;
+    margin-bottom: -2.5pc;
+    position: relative;
+    z-index: 99;
+    & > .container {
+      justify-content: end;
+    }
+
+    .navbar-toggler {
+      border-color: #fff;
+      font-size: 16px;
+      padding-left: 5px;
+      padding-right: 5px;
+      border-width: 2px;
+      &-icon {
+        filter: invert(1) brightness(4.5);
+      }
+    }
+    h5#offcanvasNavbarLabel img {
+      width: auto;
+      object-fit: contain;
+      height: 80px;
+    }
+    .offcanvas {
+      &-header {
+        border-bottom: 1px solid #e1e1e1;
+      }
+      &-body {
+        padding: 0;
+      }
+      ul.navbar-nav > li {
+        border-bottom: 1px solid #e1e1e1;
+        padding: 0px 1pc;
+        .active {
+          color: $orange !important;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .video-slide {
+    height: 40vh;
+    .data {
+      align-items: end;
+      padding-bottom: 2pc;
+      h6 {
+        font-size: 14px;
+        margin-bottom: 5px !important;
+        line-height: normal;
+      }
+      h6,
+      h1 {
+        background-color: #ffffff6e;
+        padding: 6px 10px;
+        width: max-content;
+        border-radius: 5px;
+      }
+      p {
+        display: none;
+      }
+
+      h1 {
+        font-size: 35px;
+        span {
+          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-width: 1px;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+  .btn {
+    padding: 7px 1pc !important;
+    font-size: 12px !important;
+  }
+  #insight {
+    h4 {
+      font-size: 25px;
+      font-weight: 600 !important;
+      color: #000;
+    }
+    ul {
+      justify-content: flex-start;
+      padding: 0;
+    }
+  }
+  #about-us {
+    padding-top: 0;
+    background: none;
+    .right {
+      margin-top: 1pc;
+    }
+  }
+
+  .title {
+    margin-bottom: 2pc !important;
+    h1 {
+      font-size: 25px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+
+  li,
+  p {
+    font-size: 14px !important;
+    line-height: 22px !important;
+  }
+  .gallery-swiper .swiper-slide {
+    img {
+      height: 200px;
+    }
+    .img {
+      margin: 5px;
+    }
+    &:nth-child(even) .img {
+      margin-top: 5px;
+    }
+  }
+  .pt-60 {
+    padding-top: 50px;
+  }
+
+  .pb-60 {
+    padding-bottom: 50px;
+  }
+  .ptb-60 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .mtb-60 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .mt-60 {
+    margin-top: 50px;
+  }
+
+  .mb-60 {
+    margin-bottom: 50px;
+  }
+  .gallery-video {
+    margin-bottom: 0;
+    iframe {
+      height: 300px;
+    }
+  }
+  .symposium {
+    &::before {
+      background: none;
+    }
+    img {
+      height: 150px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+  }
+  #speakers .speaker-swiper {
+    img {
+      height: 200px;
+    }
+    h5 {
+      font-size: 14px;
+    }
+  }
+  .organized-by .box {
+    padding: 1pc;
+    h4 {
+      font-size: 18px;
+    }
+    h6 {
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 12px !important;
+      line-height: normal !important;
+    }
+  }
+  #footer {
+    padding-top: 5pc;
+    .info .box {
+      margin-bottom: 1pc;
+      h4 {
+        margin-bottom: 1pc;
+      }
+    }
+  }
+}
+
+// =========================================================================================
+@media only screen and (min-width: 768px) {
+  .header-one {
+    & > .container {
+      display: block;
+    }
+    marquee .multi-logos {
+      display: none;
+    }
+  }
+}
+
+// =========================================================================================
+@media only screen and (max-width: 992px) {
+}
+// =========================================================================================
+@media only screen and (max-width: 1200px) {
+  #about-us {
+    background: none;
+  }
+}
+// =========================================================================================
+@media only screen and (max-width: 1360px) {
+  .video-slide .custom-svg-1 {
+    display: none;
+  }
+}
+
+// =========================================================================================
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .header-one {
+    & > .container {
+      display: none;
+    }
+    marquee {
+      .multi-logos {
+        display: flex;
+      }
+    }
+  }
+  .header-2 {
+    background: transparent !important;
+    padding-bottom: 0 !important;
+    margin-bottom: -2.5pc;
+    position: relative;
+    z-index: 99;
+    & > .container {
+      justify-content: end;
+    }
+
+    .navbar-toggler {
+      border-color: #fff;
+      font-size: 16px;
+      padding-left: 5px;
+      padding-right: 5px;
+      border-width: 2px;
+      &-icon {
+        filter: invert(1) brightness(4.5);
+      }
+    }
+    h5#offcanvasNavbarLabel img {
+      width: auto;
+      object-fit: contain;
+      height: 80px;
+    }
+    .offcanvas {
+      &-header {
+        border-bottom: 1px solid #e1e1e1;
+      }
+      &-body {
+        padding: 0;
+      }
+      ul.navbar-nav > li {
+        border-bottom: 1px solid #e1e1e1;
+        padding: 0px 1pc;
+        .active {
+          color: $orange !important;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .video-slide {
+    height: 50vh;
+    .data {
+      h6 {
+        margin-bottom: 5px !important;
+        line-height: normal;
+      }
+      h6,
+      h1 {
+        background-color: #ffffff6e;
+        padding: 6px 10px;
+        width: max-content;
+        border-radius: 5px;
+      }
+      p {
+        display: none;
+      }
+
+      h1 {
+        span {
+          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-width: 1px;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+  .btn {
+    padding: 7px 1pc !important;
+  }
+  #insight {
+    h4 {
+      font-size: 25px;
+      font-weight: 600 !important;
+      color: #000;
+    }
+    ul {
+      justify-content: flex-start;
+      padding: 0;
+    }
+  }
+  #about-us {
+    padding-top: 0;
+    background: none;
+    .left img {
+      display: none;
+    }
+    .right {
+      margin-top: 1pc;
+    }
+  }
+
+  .title {
+    margin-bottom: 2pc !important;
+    h1 {
+      font-size: 35px;
+    }
+  }
+
+  .gallery-swiper .swiper-slide {
+    img {
+      height: 200px;
+    }
+    .img {
+      margin: 5px;
+    }
+  }
+
+  .ptb-60 {
+    padding-bottom: 60px;
+  }
+
+  .mtb-60 {
+    margin-bottom: 60px;
+  }
+  .gallery-video {
+    margin-bottom: 0;
+    iframe {
+      height: 200px;
+    }
+  }
+  .symposium {
+    &::before {
+      background: none;
+    }
+    img {
+      height: 150px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+  }
+  #speakers .speaker-swiper {
+    img {
+      height: 200px;
+    }
+    h5 {
+      font-size: 15px;
+    }
+  }
+  .organized-by .box {
+    padding: 1pc;
+    h4 {
+      font-size: 18px;
+    }
+    h6 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 14px !important;
+      line-height: normal !important;
+    }
+  }
+  #footer {
+    padding-top: 5pc;
+    .info .box {
+      margin-bottom: 1pc;
+      h4 {
+        margin-bottom: 1pc;
+      }
+    }
+  }
+}
+
+// =========================================================================================
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .header-2 {
+    background: transparent !important;
+    padding-bottom: 0 !important;
+    margin-bottom: -2.8pc;
+    position: relative;
+    z-index: 99;
+    & > .container {
+      justify-content: end;
+    }
+
+    .navbar-toggler {
+      border-color: #fff;
+      border-width: 2px;
+      &-icon {
+        filter: invert(1) brightness(4.5);
+      }
+    }
+    h5#offcanvasNavbarLabel img {
+      width: auto;
+      object-fit: contain;
+      height: 80px;
+    }
+    .offcanvas {
+      &-header {
+        border-bottom: 1px solid #e1e1e1;
+      }
+      &-body {
+        padding: 0;
+      }
+      ul.navbar-nav > li {
+        border-bottom: 1px solid #e1e1e1;
+        padding: 0px 1pc;
+        .active {
+          color: $orange !important;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .video-slide {
+    height: 70vh;
+    .data {
+      h6 {
+        margin-bottom: 5px !important;
+        line-height: normal;
+      }
+      h6,
+      h1 {
+        background-color: #ffffff6e;
+        padding: 10px;
+        width: max-content;
+        border-radius: 5px;
+      }
+      p {
+        display: none;
+      }
+
+      h1 {
+        span {
+          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-width: 1px;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+  .btn {
+    padding: 10px 1pc !important;
+  }
+  #insight {
+    h4 {
+      font-size: 25px;
+      font-weight: 600 !important;
+      color: #000;
+    }
+    ul {
+      justify-content: flex-start;
+      padding: 0;
+    }
+  }
+  #about-us {
+    padding-top: 0;
+    background: none;
+    .row {
+      flex-direction: column-reverse;
+      align-items: flex-start !important;
+    }
+    .right {
+      margin-bottom: 1pc;
+    }
+  }
+
+  .gallery-swiper .swiper-slide {
+    img {
+      height: 200px;
+    }
+    .img {
+      margin: 5px;
+    }
+  }
+
+  .ptb-60 {
+    padding-bottom: 60px;
+  }
+
+  .mtb-60 {
+    margin-bottom: 60px;
+  }
+  .gallery-video {
+    margin-bottom: 0;
+    iframe {
+      height: 300px;
+    }
+  }
+  .symposium {
+    &::before {
+      background: none;
+    }
+    img {
+      height: 200px;
+    }
+    h4 {
+      font-size: 17px;
+    }
+  }
+  #speakers .speaker-swiper {
+    img {
+      height: 200px;
+    }
+    h5 {
+      font-size: 16px;
+    }
+  }
+  .organized-by {
+    .title {
+      margin-bottom: 2pc !important;
+    }
+    .box {
+      padding: 1pc;
+    }
+  }
+  #footer {
+    .info .box {
+      h4 {
+        margin-bottom: 1pc;
+      }
+    }
+  }
+}
+
+// =========================================================================================
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #about-us {
+    .row {
+      flex-direction: column-reverse;
+      align-items: flex-start !important;
+    }
+    .right {
+      margin-bottom: 1pc;
+    }
+  }
+}
